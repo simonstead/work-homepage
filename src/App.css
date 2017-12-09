@@ -1,0 +1,136 @@
+.App {
+  margin: 1em;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 768px;
+}
+
+@media only screen and (min-width: 768px) {
+  .App {
+    margin: 1em auto;
+  }
+  #bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.Header {
+  font-family: 'Poiret One', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+}
+
+.Logo {
+  font-size: 5em;
+  margin: 1rem;
+}
+
+.Nav {
+  list-style: none;
+  display: flex;
+  margin: 0 0 2em 0;
+  padding: 1em;
+}
+
+.Nav li {
+  padding: 0 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Nav a {
+  border-bottom: 1px solid black;
+}
+
+.Content > * {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+  /*border: 1px solid black;*/
+}
+
+.SectionTitle {
+  font-family: 'Poiret One', cursive;
+  font-size: 1.25em;
+}
+
+.SectionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  height: 3em;
+  margin: 1em;
+}
+
+#bio {
+  width: 100%;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+#contact {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 2em auto;
+  max-width: 384px;
+}
+
+.ContactList {
+  list-style: none;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.ContactList li {
+  margin: 0.5em;
+}
+
+.Button {
+  color: white;
+  background-color: #6b238e;
+  border-radius: 50px;
+  padding: 1em;
+  text-align: center;
+  cursor: pointer;
+  max-width: 384px;
+  box-shadow: 1px 2px 0px 1px rgba(0, 0, 0, 0.75);
+  margin: 2em auto;
+}
+
+.Button:hover {
+  background-color: #783999;
+}
+
+.Testimonial .face {
+  height: 3em;
+  margin: 2rem;
+}
+
+.Testimonial {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .Testimonial {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
