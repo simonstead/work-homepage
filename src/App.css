@@ -11,7 +11,6 @@
   }
   #bio {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
   }
@@ -21,25 +20,27 @@
   font-family: 'Poiret One', cursive;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 50vh;
   flex-direction: column;
 }
 
 .Logo {
-  font-size: 5em;
+  font-size: 8em;
   margin: 1rem;
 }
 
 .Nav {
   list-style: none;
   display: flex;
-  margin: 0 0 2em 0;
-  padding: 1em;
+  margin: 0;
+  padding: 1em 0;
 }
 
 .Nav li {
   padding: 0 1em;
+}
+.Nav li:nth-child(1) {
+  padding-left: 0;
 }
 
 a {
@@ -55,20 +56,20 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
   margin: 1em 0;
   /*border: 1px solid black;*/
 }
 
 .SectionTitle {
   font-family: 'Poiret One', cursive;
-  font-size: 1.25em;
+  font-weight: lighter;
+  font-size: 2em;
+  margin: 1rem 0;
 }
 
 .SectionContent {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
 }
 
@@ -84,10 +85,7 @@ a {
 }
 
 #contact {
-  border: 1px solid black;
-  padding: 1em;
   margin: 2em auto;
-  max-width: 384px;
 }
 
 .ContactList {
@@ -98,39 +96,21 @@ a {
 }
 
 .ContactList li {
-  margin: 0.5em;
+  margin: 0.5em 0;
 }
 
 .Button {
   color: white;
   background-color: #6b238e;
-  border-radius: 50px;
+  border-radius: 1px;
   padding: 1em;
   text-align: center;
   cursor: pointer;
   max-width: 384px;
-  box-shadow: 1px 2px 0px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.6);
   margin: 2em auto;
 }
 
 .Button:hover {
   background-color: #783999;
-}
-
-.Testimonial .face {
-  height: 3em;
-  margin: 2rem;
-}
-
-.Testimonial {
-  display: flex;
-  flex-direction: column;
-}
-
-@media only screen and (min-width: 768px) {
-  .Testimonial {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
 }

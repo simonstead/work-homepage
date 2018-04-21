@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import github from './logos/github.svg';
 
 const Header = () => (
   <div className="Header">
     <h1 className="Logo">S</h1>
     <nav>
       <ul className="Nav">
-        <li>
-          <a href="#home">home</a>
-        </li>
         <li>
           <a href="#work">work</a>
         </li>
@@ -23,11 +19,10 @@ const Header = () => (
 
 const Contact = () => (
   <div id="contact">
-    <div className="SectionTitle">Contact</div>
+    <h1 className="SectionTitle">contact</h1>
     <div className="SectionContent">
       <ul className="ContactList">
         <li>
-          <span>Github: </span>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -36,7 +31,7 @@ const Contact = () => (
             @simonstead
           </a>
         </li>
-        <li>Phone: +447455174786</li>
+        <li>+447455174786</li>
       </ul>
     </div>
   </div>
@@ -44,9 +39,8 @@ const Contact = () => (
 
 const Work = () => (
   <div id="work">
-    <h2 className="SectionTitle">Work</h2>
+    <h1 className="SectionTitle">work</h1>
     <div className="SectionContent">
-      <img src={github} alt="Github Logo" className="logo" />
       <div id="bio">
         <p>I&#39;m Simon, a mathematician and full stack software developer.</p>
         <p>
@@ -60,13 +54,13 @@ const Work = () => (
           </a>.
         </p>
         <p>
-          Scalable web applications, infrastructure as code. React, Node.js,
-          python,...
+          I prefer to build my front ends using react/redux, and build back ends
+          in javascript, python and go. Deployment preferences include docker
+          and kubernetes.
         </p>
         <p>
-          I work in Agile multidisciplinary teams, proponent of Woody
-          Zuill&#39;s #NoEstimates
-          http://softwaredevelopmenttoday.com/noestimates/
+          Advocate of domain driven design, test driven development and
+          #noestimates.
         </p>
         <p>I'm always interested in working on new & interesting projects.</p>
       </div>
@@ -74,32 +68,14 @@ const Work = () => (
   </div>
 );
 
-const Testimonials = () => (
-  <div className="Testimonials">
-    <h2 className="SectionTitle">Testimonials</h2>
-    <Testimonial />
-    <Testimonial />
-  </div>
-);
-
-const Testimonial = () => (
-  <div className="Testimonial">
-    <img src={github} className="face" alt="face of testimonial" />
-    <p>
-      "Simon's an excellent developer and completely overhauled the design of my
-      website, in record time and under budget"
-      <br />
-      - Sarah Kaston
-    </p>
-  </div>
-);
-
 const CallToAction = () => (
-  <a href="#something">
-    <div className="Button">
-      Contact me for my current day rate and availability for work.
-    </div>
-  </a>
+  <div>
+    <a href="#something">
+      <div className="Button">
+        Contact me for my current day rate and availability for work.
+      </div>
+    </a>
+  </div>
 );
 
 class App extends Component {
@@ -109,8 +85,6 @@ class App extends Component {
         <Header />
         <div className="Content">
           <Work />
-          <CallToAction />
-          <Testimonials />
           <CallToAction />
           <Contact />
         </div>
