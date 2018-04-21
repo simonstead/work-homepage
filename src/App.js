@@ -70,7 +70,7 @@ const Work = () => (
 
 const CallToAction = () => (
   <div>
-    <a href="#something">
+    <a href="mailto:simonstead@me.com">
       <div className="Button">
         Contact me for my current day rate and availability for work.
       </div>
