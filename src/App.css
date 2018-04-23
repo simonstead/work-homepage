@@ -46,6 +46,7 @@
 a {
   text-decoration: none;
   color: black;
+  border-bottom: 1px solid black;
 }
 
 .Nav a {
@@ -100,7 +101,6 @@ a {
 }
 
 .Button {
-  color: white;
   background-color: #6b238e;
   border-radius: 1px;
   padding: 1em;
@@ -109,6 +109,11 @@ a {
   max-width: 384px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.6);
   margin: 2em auto;
+}
+
+.Button a {
+  color: white;
+  border-bottom: 0;
 }
 
 .Button:hover {
