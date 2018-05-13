@@ -1,0 +1,18 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: homepage
+  labels:
+    app: homepage
+spec:
+  template:
+    metadata:
+      labels:
+        app: homepage
+        tier: web
+    spec:
+      containers:
+      - name: homepage-app
+        image: eu.gcr.io/steadnet-189709/homepage
+        ports:
+        - containerPort: 80
