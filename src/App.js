@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
 import Contact from './Contact';
+import Portfolio from './Portfolio';
+import Available from './Available'
 
 const Work = () => (
   <div id="work">
@@ -34,59 +36,7 @@ const Work = () => (
   </div>
 );
 
-const Portfolio = () => (
-  <div id="portfolio">
-    <h1 className="SectionTitle">portfolio</h1>
-    <p>
-      <a
-        href="https://digitalblog.coop.co.uk/2018/04/23/shifts-is-now-available-to-all-food-store-colleagues/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        shifts
-      </a>{' '}
-      is a website that allows colleagues in Co-op food stores to see their
-      shifts, team schedule, shift preferences and break entitlements.
-    </p>
-    <p>
-      the{' '}
-      <a
-        href="https://www.coop.co.uk/membership/join-us"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Co-op membership 'Join Us' campgain
-      </a>.
-    </p>
-    <p>
-      Co-op's{' '}
-      <a
-        href="https://digital-service-manual.herokuapp.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        digital service manual
-      </a>.
-    </p>
-    <p>
-      have you ever wanted to know if{' '}
-      <a
-        href="https://isdonaldtrumpawake.herokuapp.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        donald trump is awake right now?
-      </a>
-    </p>
-    <div>
-      <p>my work for MPP global is their intellectual property but included:</p>
-      <ul>
-        <li>retrofitting a localisation and i18n solution</li>
-        <li>custom cryptographic implementation</li>
-      </ul>
-    </div>
-  </div>
-);
+
 
 const CallToAction = () => (
   <div className="Button">
@@ -102,6 +52,7 @@ class App extends Component {
       <div className="App" id="home">
         <Header />
         <div className="Content">
+          <Available />
           <Work />
           <CallToAction />
           <Portfolio />

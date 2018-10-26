@@ -1,0 +1,8 @@
+:local(.Am) {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+:local(.Available) {
+  margin-bottom: 3em;
+}
