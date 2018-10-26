@@ -66,7 +66,7 @@ const ServiceManual = () => (
 const ProductFinder = () => (
   <div>
     <h2>product finder</h2>
-    <img src="product-finder.png" style={{ width: "100%" }} />
+    <img src="/product-finder.jpg" style={{ width: "100%" }} />
     <p>
       A product finder built for Co-op's customer care team, cutting a 20 minute
       job down to seconds.
@@ -76,13 +76,14 @@ const ProductFinder = () => (
 const StoreDashboard = () => (
   <div>
     <h2>store dashboard</h2>
-    <img src="store-dashboard.jp2" style={{ width: "100%" }} />
+    <img src="/store-dashboard.jpg" style={{ width: "100%" }} />
   </div>
 );
 
 const Other = () => <div>
 <div>
-  <img src="/membership.jp2" style={{ width: "100%" }} />
+  <h2>Co-op membership campgain</h2>
+  <img src="/membership.jpg" style={{ width: "100%" }} />
   <p>
     the{" "}
     <a
@@ -115,7 +116,7 @@ const MPP = () =>   <div>
 
     <p>my work for MPP global is their intellectual property but included:</p>
     <ul>
-      <li>retrofitting a localisation and i18n solution</li>
+      <li>Completed a time and business sensitive project to add multi language support to an entire CRM system to land a multi million pound deal for the business.</li>
       <li>custom cryptographic implementation</li>
     </ul>
   </div>
