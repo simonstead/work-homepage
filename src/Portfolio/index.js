@@ -6,9 +6,10 @@ const Local = () => (
     <iframe
       width="100%"
       src="https://www.youtube.com/embed/3pgBh1f8j2c"
-      frameborder="0"
+      frameBorder="0"
       allow="autoplay; encrypted-media"
-      allowfullscreen
+      allowFullScreen
+      title="local.co.uk demo"
     />
     <p>
       Tech lead on the project to build a full ecommerce platform, seller
@@ -25,7 +26,7 @@ const Local = () => (
 const Shifts = () => (
   <div>
     <h2>shifts</h2>
-    <img src="/shifts.jpg" style={{ width: "100%" }} />
+    <img alt="part of my portfolio" src="/shifts.jpg" style={{ width: "100%" }} />
     <p>
       <a
         href="https://digitalblog.coop.co.uk/2018/04/23/shifts-is-now-available-to-all-food-store-colleagues/"
@@ -39,7 +40,7 @@ const Shifts = () => (
     </p>
     <p>
       Shifts is now live in Co-op food stores and being used by over 50 000
-      colleagues
+      colleagues.
     </p>
   </div>
 );
@@ -47,7 +48,7 @@ const Shifts = () => (
 const ServiceManual = () => (
   <div>
     <h2>digital service manual</h2>
-    <img src="/service-manual.png" style={{ width: "100%" }} />
+    <img alt="part of my portfolio" src="/service-manual.png" style={{ width: "100%" }} />
     <p>
       Co-op's{" "}
       <a
@@ -66,7 +67,7 @@ const ServiceManual = () => (
 const ProductFinder = () => (
   <div>
     <h2>product finder</h2>
-    <img src="/product-finder.jpg" style={{ width: "100%" }} />
+    <img alt="part of my portfolio" src="/product-finder.jpg" style={{ width: "100%" }} />
     <p>
       A product finder built for Co-op's customer care team, cutting a 20 minute
       job down to seconds.
@@ -76,14 +77,15 @@ const ProductFinder = () => (
 const StoreDashboard = () => (
   <div>
     <h2>store dashboard</h2>
-    <img src="/store-dashboard.jpg" style={{ width: "100%" }} />
+    <img alt="part of my portfolio" src="/store-dashboard.jpg" style={{ width: "100%" }} />
+    <p>We built a store dashboard as a trial for Co-op food stores which updates in real time.</p>
   </div>
 );
 
 const Other = () => <div>
 <div>
   <h2>Co-op membership campgain</h2>
-  <img src="/membership.jpg" style={{ width: "100%" }} />
+  <img alt="part of my portfolio" src="/membership.jpg" style={{ width: "100%" }} />
   <p>
     the{" "}
     <a

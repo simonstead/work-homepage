@@ -15,6 +15,7 @@ export const Contact = () => (
           </a>
         </li>
         <li>+447455174786</li>
+        <li>simonstead@me.com</li>
       </ul>
     </div>
   </div>

@@ -4,10 +4,12 @@ import Header from './Header';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Available from './Available'
+import Tags from './Tags'
 
 const Work = () => (
   <div id="work">
     <h1 className="SectionTitle">work</h1>
+    <Tags />
     <div className="SectionContent">
       <div id="bio">
         <p>I&#39;m Simon, a mathematician and full stack software developer.</p>
@@ -40,7 +42,7 @@ const Work = () => (
 
 const CallToAction = () => (
   <div className="Button">
-    <a href="mailto:simonstead@me.com">
+    <a href="/#contact">
       <p>Contact me for my current day rate and availability for work.</p>
     </a>
   </div>
