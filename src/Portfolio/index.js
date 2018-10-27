@@ -118,8 +118,10 @@ const MPP = () =>   <div>
 
     <p>my work for MPP global is their intellectual property but included:</p>
     <ul>
-      <li>Completed a time and business sensitive project to add multi language support to an entire CRM system to land a multi million pound deal for the business.</li>
-      <li>custom cryptographic implementation</li>
+      <li>Leading a team of 5 developers and QAs</li>
+      <li>Completing a time and business sensitive project to add multi language support to an entire CRM system to land a multi million pound deal for the business</li>
+      <li>Custom building a cryptographic implementation to exponentially reduce the amount of data stored in their offers/voucher system</li>
+      <li>Building out a 4 stage, high availablity infrastructure platform in a new amazon AWS region to facilitate new clients in the USA and Japan</li>
     </ul>
   </div>
 

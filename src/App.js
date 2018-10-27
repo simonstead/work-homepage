@@ -12,7 +12,10 @@ const Work = () => (
     <Tags />
     <div className="SectionContent">
       <div id="bio">
-        <p>I&#39;m Simon, a mathematician and full stack software developer.</p>
+        <p>I&#39;m Simon, a full stack agile software developer.</p>
+        <p>
+          I build software as a means to an end, to help users with real user needs with a data driven approach.
+        </p>
         <p>
           I Currently work at{' '}
           <a
@@ -22,11 +25,6 @@ const Work = () => (
           >
             @CoopDigital
           </a>.
-        </p>
-        <p>
-          I prefer to build my front ends using react/redux, and build back ends
-          in javascript, python and go. Deployment preferences include docker
-          and kubernetes.
         </p>
         <p>
           Advocate of domain driven design, test driven development and
