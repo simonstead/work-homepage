@@ -5,6 +5,9 @@ import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Available from './Available'
 import Tags from './Tags'
+import AnalyticsWrapper from './AnalyticsWrapper'
+import {BrowserRouter} from 'react-router-dom'
+
 
 const Work = () => (
   <div id="work">
@@ -49,16 +52,20 @@ const CallToAction = () => (
 class App extends Component {
   render() {
     return (
-      <div className="App" id="home">
-        <Header />
-        <div className="Content">
-          <Available />
-          <Work />
-          <CallToAction />
-          <Portfolio />
-          <Contact />
-        </div>
-      </div>
+      <BrowserRouter>
+        <AnalyticsWrapper>
+          <div className="App" id="home">
+            <Header />
+            <div className="Content">
+              <Available />
+              <Work />
+              <CallToAction />
+              <Portfolio />
+              <Contact />
+            </div>
+          </div>
+        </AnalyticsWrapper>
+      </BrowserRouter>
     );
   }
 }
